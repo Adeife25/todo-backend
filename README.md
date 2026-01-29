@@ -14,12 +14,15 @@ This is the backend API for the MERN To-Do application. It provides CRUD operati
 
 ---
 
+
 ##  Setup Instructions
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Adeife25/todo-backend.git
    cd todo-backend
+
+   
 
 ## Install dependencies
 npm init -y
@@ -79,6 +82,9 @@ json
   "priority": "high",
   "createdAt": "2026-01-28T17:00:00Z"
 }
+
+
+
 3. Create a Task
 Method: POST
 
@@ -104,6 +110,9 @@ json
   "priority": "medium",
   "createdAt": "2026-01-28T17:10:00Z"
 }
+
+
+
 4. Update a Task
 Method: PUT
 
@@ -127,6 +136,9 @@ json
   "priority": "high",
   "updatedAt": "2026-01-28T17:20:00Z"
 }
+
+
+
 5. Delete a Task
 Method: DELETE
 
@@ -138,6 +150,8 @@ json
 {
   "message": "Task deleted successfully"
 }
+
+
 
 
 ## Testing
